@@ -12,13 +12,13 @@ header {
 }
 h1 {
     color: #03071e;
-    font-size: 10vh;
+    font-size: 60px;
     padding-top: 14vh;
     padding-left: 5vw;
 }
 .head {
     color: #03071e;
-    font-size: 5vh;
+    font-size: 30px;
     font-weight: 400;
 }
 nav {
