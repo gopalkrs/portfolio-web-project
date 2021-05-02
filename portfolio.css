@@ -11,13 +11,13 @@ header {
     
 }
 h1 {
-    color: #03071e;
+    color: whitesmoke;
     font-size: 60px;
     padding-top: 14vh;
     padding-left: 5vw;
 }
 .head {
-    color: #03071e;
+    color: whitesmoke;
     font-size: 30px;
     font-weight: 400;
 }
@@ -27,15 +27,15 @@ nav {
     padding-right: 3vw;
 }
 .navigation {
-    color:#03071e;
-    font-size: 30px;
+    color:whitesmoke;
+    font-size: 35px;
     margin: 5px;
 }
 h2{
     color: #03071e;
     font-size: 50px;
     text-align: center;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 h3 {
     color:#03071e;
@@ -56,38 +56,45 @@ p,ul {
     padding: 2vh;  
     color: #03071e;
     text-decoration: none;
+    font-size: 15px;
 }
 .social-media{
-    padding-left: 42vw;
+   width:180px;
+   margin:0 auto;
 }
-.phone {
-    margin-left: 42vw;
-}
+
 img {
-    height: 120px;
-    width: 110px;
+    height: 130px;
+    width: 120px;
+    margin:0 auto;
     border-radius: 50%;
 }
-.image {
-    padding-left:45vw;
-}
 
-th,td {
+td {
     margin-left: 5vw;
-    padding: 2px 4px;
-    border: 2px ridge #03071e;
-    height: 4vh;
-    background-color:  #f2ffcc;
-    border-radius: 8px;
-    border-collapse: collapse;
-
-    
+    padding: 6px 15px;
 }
 table {
-    border-radius: 10px;
+    border-radius: 15px;
     margin-left: 5vw;
-    padding: 1px;
-    border: 2px solid #03071e;
-    height: 4vh;
-    background-color: #f2ffcc;
+    padding: 0;
+    width: 60%;
+    background-color: #ffe8cc;
+}
+th {
+    border-radius: 15px;
+    padding: 6px 15px;
+    background-color: bisque;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.edu {
+    border-radius: 15px;
+    padding: 6px 15px;
+    margin: 0 0;
+    background-color: bisque;
+}
+.connect-me{
+    font-size: 20px;
+    font-family:'Merriweather Sans', sans-serif ;
 }
