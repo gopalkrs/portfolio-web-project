@@ -48,10 +48,15 @@ h3 {
     border-bottom: 2px solid #003049;
     text-align: center;
 }
-p,ul {
+ul {
     color:#003049;
     font-size: 15px;
     margin-left: 40px;
+}
+p{
+    color:#003049;
+    font-size: 15px;
+    text-align: center;
 }
 .new-link {
     color:#003049;
@@ -122,9 +127,10 @@ a{
     margin: 20px;
     border-radius: 5px;
 }
-.quiz-app:hover{
+.quiz-app:hover {
     box-shadow: 2px 2px 5px 5px gray;
     background-color: #0aff99;
+    color: blue;
 }
 .quiz-app h3{
     font-size: 20px;
@@ -166,10 +172,11 @@ a{
         font-size: 10px;
     }
     p{
-        font-size: 8px;
+        font-size: 9px;
     }
     ul{
-        font-size: 8px;
+        font-size: 9px;
+        padding-left: 6px;
     }
     table{
         font-size: 9px;
@@ -179,5 +186,8 @@ a{
         padding-top: 50px;
         display: flex;
         flex-direction: column;
+    }
+    .navigation li {
+        font-size: 10px;
     }
 }
