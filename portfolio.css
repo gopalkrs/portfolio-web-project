@@ -59,6 +59,7 @@ ul {
 p{
     color:#003049;
     font-size: 15px;
+    padding: 8px;
 }
 .new-link {
     color:#003049;
@@ -178,7 +179,7 @@ a{
         font-size: 10px;
     }
     p{
-        font-size: 11px;
+        font-size: 14px;
     }
     ul{
         font-size: 9px;
@@ -199,9 +200,9 @@ a{
         font-size: 10px;
     }
     .navigation li:hover {
-        font-size: 14px;
+        font-size: 13px;
     }
     #current-nav{
-        font-size: 14px;
+        font-size: 13px;
     }
 }
