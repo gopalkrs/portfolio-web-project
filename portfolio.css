@@ -175,4 +175,9 @@ a{
         font-size: 9px;
         padding: 3px;
     }
+    .projects-tab{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
 }
