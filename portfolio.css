@@ -83,6 +83,7 @@ img.profile-pic {
 td {
     padding: 5px;
     margin: 10px;
+    color: whitesmoke;
 }
 table {
     border-radius: 10px;
@@ -95,13 +96,14 @@ table {
 th {
     border-radius: 10px;
     padding: 5px;
-    background-color: #0aefff;
-    
+    background-color: whitesmoke;
+    color: #003049;
 }
 .edu {
     border-radius: 10px;
     padding: 5px;
-    background-color: #0aefff;
+    background-color: whitesmoke;
+    color: #003049;
 }
 .connect-me{
     font-size: 20px;
@@ -130,7 +132,6 @@ a{
 .quiz-app:hover {
     box-shadow: 2px 2px 5px 5px gray;
     background-color: #d62828;
-    color: blue;
     transition: 0.2s;
 }
 .quiz-app h3{
