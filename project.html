@@ -12,10 +12,13 @@
 <body>
     <header>
         <nav>
-            <a class="navigation" href="/index.html">home</a>
-            <a class="navigation" href="/project.html">projects</a>
-            <a class="navigation" href="/about.html">about</a>
-            <a class="navigation" href="/contacts.html">contact</a>
+            <ul class="navigation">
+                <a href="/index.html"><li>HOME</li></a>
+                <a href="/project.html"><li id="current-nav">PROJECTS</li></a>
+                <a href="/about.html"><li>ABOUT</li></a>
+                <a href="/contacts.html"><li>CONTACT</li></a>
+            </ul>
+            
         </nav>
         <h1>Gopal Choudhary <br>
             <span class="head">
@@ -24,20 +27,28 @@
         </h1>
     </header>
     <section>
-        <h2>project</h2>
-        <h3>CLI Quiz App</h3>
-        <p>Created a command line based quiz application on cricket.</p>
-        <p>Created on repl.it using javascript.</p>
-        <p>Link : <a class="new-link" href="https://replit.com/@gopalkrs/QUIZZPOT?lite=1&outputonly=1">QUIZPOTT</a></p>
-        <h3>Portfolio website</h3>
-        <p>Built a portfolio website.</p>
-        <p>Used some basic design principals and designed with html and css.</p>
-        <p>Hosted the website on netlify.</p>
-        <p>Link : <a class="new-link" href="https://gopalgk-tech.netlify.app/">My Portfolio</a></p>
-        <h3>Utility App</h3>
-        <p>Created a CLI based utility application on repl.it using javascript.</p>
-        <p>Application contains seven utility options for users.</p>
-        <p>Link : </p>
+        <h2>My Projects</h2>
+        <div class="projects-tab">
+            <div class="quiz-app">
+                <img src="quiz.svg">
+                <h3>CLI Quiz App</h3>
+                <p>Created a command line based cricket quiz application on REPL.</p>
+                <p>Link : <a href="https://replit.com/@gopalkrs/QUIZZPOT?lite=1&outputonly=1">QUIZPOTT</a></p>
+            </div>
+            <div class="quiz-app">
+                <img src="utilities.svg">
+                <h3>Portfolio website</h3>
+                <p>Built a portfolio website.</p>
+                <p>Link : <a href="https://gopalgk-tech.netlify.app/">My Portfolio.</a></p>
+            </div>
+        
+            <div class="quiz-app">
+                <img src="resume.svg">
+                <h3>Utility Apps</h3>
+                <p>Created a utility apps consisting of 7 utilities.</a></p>
+                <p>Link : <a href="utility-apps-tech.netlify.app">Utility Apps</a></p>
+            </div>
+        </div>
     </section>
 </body>
 </html>

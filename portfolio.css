@@ -4,17 +4,15 @@ body {
     margin: 0 0;
 }
 header {
-    background-image: url("/bg2.jpg");
-    height: 400px;
+    background-image: url("/header2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 h1 {
     color: whitesmoke;
-    font-size: 60px;
-    padding-top: 14vh;
-    padding-left: 5vw;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-left: 60px;
 }
 .head {
     color: whitesmoke;
@@ -23,38 +21,45 @@ h1 {
 }
 nav {
     text-align: right;
-    padding-top: 1vw;
-    padding-right: 3vw;
+    padding-top: 10px;
+    padding-right: 20px;
 }
-.navigation {
+.navigation li{
     color:whitesmoke;
-    font-size: 35px;
-    margin: 5px;
+    font-size: 22px;
+    display: inline;
+    border: 2px solid whitesmoke;
+    padding: 5px;
 }
+.navigation li:hover {
+    background-color: #d62828;
+    color: #003049;
+}
+
 h2{
-    color: #03071e;
-    font-size: 50px;
+    color:#003049;
+    font-size: 40px;
     text-align: center;
     text-decoration: underline;
 }
 h3 {
-    color:#03071e;
+    color:#003049;
     font-size: 30px;
-    margin-left: 5vw;
-    border-bottom: 2px solid #03071e;
+    border-bottom: 2px solid #003049;
+    text-align: center;
 }
 p,ul {
-    color:#03071e;
-    font-size: 20px;
-    margin-left: 5vw;
+    color:#003049;
+    font-size: 15px;
+    margin-left: 40px;
 }
 .new-link {
-    color:#03071e;
+    color:#003049;
     font-size:15px;
 }
 .fa {
     padding: 2vh;  
-    color: #03071e;
+    color:#003049;
     text-decoration: none;
     font-size: 15px;
 }
@@ -63,7 +68,7 @@ p,ul {
    margin:0 auto;
 }
 
-img {
+img.profile-pic {
     height: 130px;
     width: 120px;
     margin:0 auto;
@@ -71,30 +76,103 @@ img {
 }
 
 td {
-    margin-left: 5vw;
-    padding: 6px 15px;
+    padding: 5px;
+    margin: 10px;
 }
 table {
-    border-radius: 15px;
-    margin-left: 5vw;
-    padding: 0;
-    width: 60%;
-    background-color: #ffe8cc;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #147df5;
+    font-size: 15px;
+    width: 90%;
 }
 th {
-    border-radius: 15px;
-    padding: 6px 15px;
-    background-color: bisque;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #0aefff;
+    
 }
 .edu {
-    border-radius: 15px;
-    padding: 6px 15px;
-    margin: 0 0;
-    background-color: bisque;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #0aefff;
 }
 .connect-me{
     font-size: 20px;
     font-family:'Merriweather Sans', sans-serif ;
+}
+a{
+    text-decoration: none;
+}
+#current-nav{
+    background-color: #d62828;
+    color: #001F3D;
+}
+.homepage{
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+}
+.quiz-app{
+    width: 260px;
+    background-color: #147df5;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.quiz-app:hover{
+    box-shadow: 2px 2px 5px 5px gray;
+    background-color: #0aff99;
+}
+.quiz-app h3{
+    font-size: 20px;
+    color: whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+}
+.quiz-app p{
+    color: whitesmoke;
+}
+.projects-tab{
+    margin: 20px;
+
+}
+.quiz-app img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects-tab{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+@media screen and (max-width:700px){
+    h1{
+        padding-top: 40px;
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    .head{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 10px;
+    }
+    p{
+        font-size: 8px;
+    }
+    ul{
+        font-size: 8px;
+    }
+    table{
+        font-size: 9px;
+        padding: 3px;
+    }
 }
