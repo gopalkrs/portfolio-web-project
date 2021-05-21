@@ -26,18 +26,20 @@ nav {
 }
 .navigation li{
     color:whitesmoke;
-    font-size: 22px;
+    font-size: 20px;
     display: inline;
     border: 2px solid whitesmoke;
     padding: 5px;
 }
 .navigation li:hover {
     background-color: #d62828;
-    color: #003049;
+    color: #353535;;
+    transition: 0.4s;
+    font-size: 24px;
 }
 
 h2{
-    color:#003049;
+    color:#353535;
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
@@ -53,6 +55,7 @@ ul {
     font-size: 15px;
     margin-left: 40px;
 }
+
 p{
     color:#003049;
     font-size: 15px;
@@ -114,7 +117,8 @@ a{
 }
 #current-nav{
     background-color: #d62828;
-    color: #001F3D;
+    color: #353535;
+    font-size: 24px;
 }
 .homepage{
     margin: 20px;
@@ -130,7 +134,7 @@ a{
     border-radius: 5px;
 }
 .quiz-app:hover {
-    box-shadow: 2px 2px 5px 5px gray;
+    box-shadow: 2px 2px 5px 5px #353535;;
     background-color: #d62828;
     transition: 0.2s;
 }
@@ -193,5 +197,11 @@ a{
     }
     .navigation li {
         font-size: 10px;
+    }
+    .navigation li:hover {
+        font-size: 14px;
+    }
+    #current-nav{
+        font-size: 14px;
     }
 }
