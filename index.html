@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="/portfolio.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cd101de5d4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
             <ul class="navigation">
-                <a href="/index.html"><li id="current-nav">HOME</li></a>
-                <a href="/project.html"><li>PROJECTS</li></a>
-                <a href="/about.html"><li>ABOUT</li></a>
-                <a href="/contacts.html"><li>CONTACT</li></a>
+                <a href="#home"><li id="current-nav">HOME</li></a>
+                <a href="#project"><li>PROJECTS</li></a>
+                <a href="#about"><li>ABOUT</li></a>
+                <a href="#contact"><li>CONTACT</li></a>
             </ul>
         </nav>
         <h1>Gopal Choudhary <br>
@@ -26,14 +27,90 @@
         </h1>
     </header>
     <section>
-        <h2>home</h2>
-        <div class="homepage">
+        <div id="home" class="homepage" style="text-align: center;">
             <p>Hey, I am Gopal Choudhary,currently working as a software engineer at TCS.</p>
-            <p>Have done my Engineering(B.Tech) from Computer science in year 2020. </p>
+            <p>Completed my Engineering(B.Tech) from Computer science in year 2020. </p>
             <p>Want to build my career in development, problem solving and become a skilled Software Development Engineer.</p>
             <p>I am empathetic, approachable and an active listener; traits that allow me to create great projects and build my developer skills.</p>
             <p>If you are looking to hire someone with my skills then you can drop me a <a class="new-link" href="mailto: raunakchd1@gmail.com">Mail.</a></p>
         </div>
     </section>
+
+    <article>
+        <h2 id="about">About Me</h2>
+        <div class="homepage">
+        <h3>education</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="edu">B.Tech</td>
+                    <td>Narula Institute Of Technology,WBUT</td>
+                    <td>Kolkata</td>
+                </tr>
+                <tr>
+                    <td class="edu">HSE</td>
+                    <td>MPS College</td>
+                    <td>Darbhanga</td>
+                </tr>
+                <tr>
+                    <td class="edu">SSE</td>
+                    <td>Rose Public School</td>
+                    <td>Darbhanga</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>skills</h3>
+        <div class="skills">
+            <div> <i class="fab fa-java"></i> JAVA</div>
+            <div><i class="fab fa-js"></i> Javascript</div>
+            <div><i class="fab fa-html5"></i> HTML</div>
+            <div><i class="fab fa-css3-alt"></i> CSS</div>
+            <div>C</div>
+            <div>Data Structures</div>
+            <div>DBMS</div>
+        </div>
+        <h3>interests and hobbies</h3>
+        <ul class="hobbies">
+            <li>Enjoy learning both Front-end and Back-end of websites.</li>
+            <li>Have interest in learning and designing front end part of websites.</li>
+            <li>Love to watch cricket matches.</li>
+            <li>My hobbies are listening music and watching movies.</li>
+        </ul>
+        </div>
+    </article>
+
+    <article>
+            <h2 id="project">My Projects</h2>
+            <div class="projects-tab">
+                <a href="https://replit.com/@gopalkrs/QUIZZPOT?lite=1&outputonly=1"><div class="quiz-app">
+                    <img src="quiz.svg">
+                    <h3 id="project-title">CLI Quiz App</h3>
+                    <p>Created a command line based cricket quiz application on REPL.</p>
+                </div></a>
+                <a href="http://shortly-tech.herokuapp.com/"><div class="quiz-app">
+                    <img src="resume.svg">
+                    <h3 id="project-title">Shortly URL</h3>
+                    <p>Created a Url Shortener web app using express and node.</p>
+                </div></a>
+            
+                <a href="https://utility-apps-tech.netlify.app"><div class="quiz-app">
+                    <img src="utilities.svg">
+                    <h3 id="project-title">Utility Apps</h3>
+                    <p>Created a utility web app using front end and javascript consisting of several utilities for users.</p>
+                </div></a>
+            </div>
+    </article>
+    <article>
+            <h2 id="contact">Contact Me</h2>
+            <div class="homepage-contact">
+                <img class="profile-pic" src="/prof.jpeg">
+                <div class="social-media">
+                    <h4>Phone :+91 9330581606</h4>
+                    <span><a href="https://linkedin.com/in/gopal-choudhary-272bb3207" class="fa fa-linkedin"><span class="connect-me"> Linkedin</span></a></span>
+                    <span><a href="https://github.com/gopalkrs" class="fa fa-github"><span class="connect-me"> GitHub</span></a></span>
+                    <span><a href="mailto: raunakchd1@gmail.com" class="fa fa-envelope"><span class="connect-me"> Gmail</span></a></span>
+                </div>
+            </div>
+    </article>
 </body>
 </html>
