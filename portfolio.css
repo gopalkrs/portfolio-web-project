@@ -25,10 +25,10 @@ nav {
     padding-right: 20px;
 }
 .navigation li{
-    color:antiquewhite;
+    color:whitesmoke;
     font-size: 20px;
     display: inline;
-    border: 2px solid antiquewhite;
+    border: 2px solid whitesmoke;
     padding: 5px;
 }
 .navigation li:hover {
@@ -99,24 +99,23 @@ p{
 .new-link {
     color:#4E1A3D;
     font-size:12px;
+    text-decoration: underline;
 }
 .fa {
-    padding: 10px;  
+    padding: 5px;  
     color: #4E1A3D;
     text-decoration: none;
     font-size: 20px;
 }
 .social-media{
-  text-align: center;
-}
+    text-align: center;
+  }
 
 img.profile-pic {
     height: 90px;
     width: 80px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 95px;
+    margin-top: 20px;
 }
 
 td {
@@ -162,10 +161,15 @@ a{
     padding: 5px;
 }
 .homepage-contact{
-    margin: 20px;
     background-color: #B5F2EE;
     padding: 5px;
-    color: antiquewhite;
+    color: #4E1A3D;
+}
+.homepage-contact-footer-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 .quiz-app{
     width: 200px;
@@ -229,7 +233,10 @@ h3#project-title {
     p{
         font-size: 14px;
     }
-    
+    img.profile-pic {
+        height: 70px;
+        width: 60px;
+    }
     .skills div{
         font-size: 11px;
         padding: 5px;
@@ -265,8 +272,11 @@ h3#project-title {
 }
 @media screen and (max-width:400px){
     .social-media {
-        font-size: 8px;
+        font-size: 10px;
         padding: 4px;
+    }
+    .homepage-contact-footer-design {
+        gap: 0px;
     }
 }
 @media screen and (max-width:350px){
