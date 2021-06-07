@@ -25,10 +25,10 @@ nav {
     padding-right: 20px;
 }
 .navigation li{
-    color:whitesmoke;
+    color:antiquewhite;
     font-size: 20px;
     display: inline;
-    border: 2px solid whitesmoke;
+    border: 2px solid antiquewhite;
     padding: 5px;
 }
 .navigation li:hover {
@@ -45,19 +45,43 @@ h2{
     text-decoration: underline;
 }
 h3 {
-    color: #147df5;
+    color: antiquewhite;
     font-size: 30px;
     text-align: center;
-    background-color: #CFEED1;
+    background-color: #00E0EA;
+}
+.projects-tab h4 {
+    color: #4E1A3D;
 }
 
 .skills {
-    color:#003049;
     font-size: 15px;
-    list-style-type: none;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+.education-tab {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.education-tab div{
+    background-color: turquoise;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    color: #4E1A3D;
+    width: 200px;
+    text-align: center;
+}
+.fas {
+    font-size: 55px;
+    color: #ff7930;
+}
+.education-tab div p{
+   color: whitesmoke;
+   text-align: center;
 }
 .skills div{
     background-color: #4E1A3D;
@@ -68,19 +92,19 @@ h3 {
 }
 
 p{
-    color:#003049;
+    color:#4E1A3D;
     font-size: 15px;
     padding: 8px;
 }
 .new-link {
-    color:#003049;
-    font-size:15px;
+    color:#4E1A3D;
+    font-size:12px;
 }
 .fa {
     padding: 10px;  
-    color:antiquewhite;
+    color: #4E1A3D;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
 }
 .social-media{
   text-align: center;
@@ -97,8 +121,8 @@ img.profile-pic {
 
 td {
     padding: 10px;
-    margin: 10px;
-    color: whitesmoke;
+    margin: 5px;
+    color: #4E1A3D;
 }
 table {
     border-radius: 10px;
@@ -112,13 +136,13 @@ th {
     border-radius: 10px;
     padding: 8px;
     background-color: whitesmoke;
-    color: #003049;
+    color: #4E1A3D;
 }
 .edu {
     border-radius: 10px;
     padding: 10px;
     background-color: whitesmoke;
-    color: #003049;
+    color: #4E1A3D;
 }
 .connect-me{
     font-size: 10px;
@@ -129,38 +153,36 @@ a{
 }
 #current-nav{
     background-color: #FF7930;
-    color: #353535;
+    color: #4E1A3D;
     font-size: 24px;
 }
 .homepage{
     margin: 20px;
     background-color: #B5F2EE;
-    border-radius: 5px;
     padding: 5px;
 }
 .homepage-contact{
     margin: 20px;
-    background-color: #ff7930;
-    border-radius: 5px;
+    background-color: #B5F2EE;
     padding: 5px;
     color: antiquewhite;
 }
 .quiz-app{
     width: 200px;
     height: 250px;
-    background-color: #147df5;
+    background-color: #00E0EA;
     padding: 10px;
     margin: 20px;
     border-radius: 5px;
 }
 
 .quiz-app:hover {
-    box-shadow: 2px 2px 5px 5px #353535;;
+    box-shadow: 2px 2px 5px 5px #353535;
     background-color: #FF7930;
     transition: 0.2s;
 }
 h3#project-title {
-    color:antiquewhite;
+    color: #4E1A3D;
     font-size: 20px;
     text-align: center;
     background-color: transparent;
@@ -168,7 +190,7 @@ h3#project-title {
 }
 
 .quiz-app p{
-    color: whitesmoke;
+    color: #4E1A3D;
     text-align: center;
 }
 .projects-tab{
@@ -202,10 +224,10 @@ h3#project-title {
         font-size: 20px;
     }
     h3{
-        font-size: 13px;
+        font-size: 15px;
     }
     p{
-        font-size: 11px;
+        font-size: 14px;
     }
     
     .skills div{
@@ -214,10 +236,10 @@ h3#project-title {
         margin: 3px;
     }
     .hobbies li {
-        font-size: 11px;
+        font-size: 14px;
     }
     table{
-        font-size: 9px;
+        font-size: 12px;
         padding: 3px;
     }
     
