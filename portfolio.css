@@ -45,10 +45,10 @@ h2{
     text-decoration: underline;
 }
 h3 {
-    color: #00E0EA;
+    color: #404040;
     font-size: 30px;
     text-align: center;
-    border-bottom: 2px solid #404040;
+    border-bottom: 2px solid #00E0EA;
 }
 .projects-tab h4 {
     color: #4E1A3D;
@@ -90,7 +90,9 @@ h3 {
     border-radius: 30px;
     color: #ff7930;
 }
-
+h3.about-headers {
+    margin-top: 90px;
+}
 p{
     color:#4E1A3D;
     font-size: 15px;
