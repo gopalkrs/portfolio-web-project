@@ -97,19 +97,22 @@ p{
     padding: 8px;
 }
 .new-link {
-    color:#4E1A3D;
+    color:whitesmoke;
     font-size:12px;
     text-decoration: underline;
 }
 .fa {
     padding: 5px;  
-    color: #4E1A3D;
+    color: whitesmoke;
     text-decoration: none;
     font-size: 20px;
 }
 .social-media{
     text-align: center;
-  }
+}
+.social-media a{
+    color: whitesmoke;
+}
 
 img.profile-pic {
     height: 90px;
@@ -118,31 +121,7 @@ img.profile-pic {
     margin-top: 20px;
 }
 
-td {
-    padding: 10px;
-    margin: 5px;
-    color: #4E1A3D;
-}
-table {
-    border-radius: 10px;
-    margin: 0 auto;
-    padding: 10px;
-    background-color: #00E0EA;
-    font-size: 15px;
-    width: 90%;
-}
-th {
-    border-radius: 10px;
-    padding: 8px;
-    background-color: whitesmoke;
-    color: #4E1A3D;
-}
-.edu {
-    border-radius: 10px;
-    padding: 10px;
-    background-color: whitesmoke;
-    color: #4E1A3D;
-}
+
 .connect-me{
     font-size: 10px;
     font-family:'Merriweather Sans', sans-serif ;
@@ -161,9 +140,12 @@ a{
     padding: 5px;
 }
 .homepage-contact{
-    background-color: #B5F2EE;
+    background-color: #4E1A3D;
     padding: 5px;
-    color: #4E1A3D;
+    color: whitesmoke;
+}
+.homepage-contact p {
+    color: whitesmoke;
 }
 .homepage-contact-footer-design {
     display: flex;
