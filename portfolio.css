@@ -45,10 +45,10 @@ h2{
     text-decoration: underline;
 }
 h3 {
-    color: whitesmoke;
+    color: #00E0EA;
     font-size: 30px;
     text-align: center;
-    background-color: #00E0EA;
+    border-bottom: 2px solid #404040;
 }
 .projects-tab h4 {
     color: #4E1A3D;
