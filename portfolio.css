@@ -45,7 +45,7 @@ h2{
     text-decoration: underline;
 }
 h3 {
-    color: antiquewhite;
+    color: whitesmoke;
     font-size: 30px;
     text-align: center;
     background-color: #00E0EA;
@@ -67,7 +67,7 @@ h3 {
     flex-wrap: wrap;
 }
 .education-tab div{
-    background-color: turquoise;
+    background-color:#00E0EA;
     margin: 5px;
     padding: 8px;
     border-radius: 5px;
