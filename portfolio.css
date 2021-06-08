@@ -203,6 +203,11 @@ h3#project-title {
     flex-wrap: wrap;
     background-color: #B5F2EE;
 }
+.copyright {
+    text-align: center;
+    border-top: 1px solid #00E0EA;
+    margin: 0 0;
+}
 @media screen and (max-width:700px){
     h1{
         padding-top: 40px;
