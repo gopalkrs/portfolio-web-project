@@ -1,8 +1,12 @@
+* {
+    scroll-behavior: smooth;
+}
 body {
     background-color: whitesmoke;
     font-family: 'Merriweather Sans', sans-serif;
     margin: 0 0;
 }
+
 header {
     background-image: url("/header2.jpg");
     background-repeat: no-repeat;
