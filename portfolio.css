@@ -208,6 +208,7 @@ h3#project-title {
     text-align: center;
     border-top: 1px solid rgba(245 , 245 , 245, 0.1);
     margin: 0 0;
+    font-size: 11px;
 }
 @media screen and (max-width:700px){
     h1{
@@ -266,6 +267,9 @@ h3#project-title {
     }
     .homepage-contact-footer-design {
         gap: 0px;
+    }
+    .copyright {
+        font-size: 9px;
     }
 }
 @media screen and (max-width:350px){
